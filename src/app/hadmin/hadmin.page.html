@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Hadmin</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-menu side="start" menuId="custom" contentId="main" class="my-custom-menu">
+  <ion-header>
+    <ion-toolbar color="dark">
+      <ion-title>Roses</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item shape="round"(click)="Casos()">
+        <ion-icon name="folder-outline"></ion-icon>
+        ...Casos
+      </ion-item>
+      <ion-item shape="round"(click)="Especialista()">
+        <ion-icon name="people-outline"></ion-icon>
+        ...Especialista</ion-item>
+      <ion-item shape="round"(click)="Geolocalizacion()">
+        <ion-icon name="globe-outline"></ion-icon>
+        ...Geolocalizacion</ion-item>
+      <ion-item shape="round"(click)="Camara()">
+        <ion-icon name="camera-outline"></ion-icon>
+        ...Camara</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+
+
+<ion-router-outlet id="main"></ion-router-outlet>
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Roses</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <img src="../../assets/img/rose.jpg" />
+    <ion-card-header>
+      <ion-card-subtitle>Estamos para ayudarte </ion-card-subtitle>
+      <ion-card-title>Bienvenido</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content> 
+      Esta aplicación fue desarrollada como un lugar donde usted puede asesorarse acerca del tema de violencia contra la mujer, 
+      en este lugar usted contara con especialistas y estudiantes de pregrado capacitados para colaborarles con inquietudes y 
+      procedimientos que pueda necesitar, de la misma manera también se le orientara  acerca de este tema y seremos una gran herramienta
+      de apoyo, donde también puede desahogarse y contarnos su caso. 
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-label>ion-item in a card, icon left, button right</ion-label>
+      <ion-button fill="outline" slot="end">View</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      This is content, without any paragraph or header tags,
+      within an ion-card-content element.
+    </ion-card-content>
+  </ion-card>
+  
+  

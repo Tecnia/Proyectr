@@ -1,0 +1,8 @@
+{
+  "name": "rose3",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

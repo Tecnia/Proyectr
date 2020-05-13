@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "rose3",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

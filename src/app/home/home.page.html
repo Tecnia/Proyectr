@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Iniciar Sesión</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="cent">
+      <h2> <ion-title>Bienvenidos</ion-title></h2>
+      <img src="../../assets/img/rose.jpg" />
+      <ion-card-content padding center text-center> 
+        <ion-list>
+          <!-- Input with placeholder -->
+          <ion-input placeholder="username"></ion-input>
+          <ion-item>
+            <ion-input placeholder="password" type="password"></ion-input>
+          </ion-item>
+        </ion-list>
+        <ion-button shape="round"(click)="admin()" > iniciar sesion </ion-button>
+        <ion-button shape="round" (click)="pushregistrar()">
+          Registrarse
+        </ion-button>
+      </ion-card-content>
+</div>
+</ion-content>
